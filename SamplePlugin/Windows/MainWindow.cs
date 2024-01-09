@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Numerics;
 using Dalamud.Interface.Internal;
 using Dalamud.Interface.Windowing;
 using ImGuiNET;
 
-namespace SamplePlugin.Windows;
+namespace StickyGum.Windows;
 
 public class MainWindow : Window, IDisposable
 {
@@ -33,14 +33,14 @@ public class MainWindow : Window, IDisposable
     {
         ImGui.Text($"The random config bool is {this.Plugin.Configuration.SomePropertyToBeSavedAndWithADefault}");
 
-        if (ImGui.Button("Show Settings"))
+        if (ImGui.Button("Show Detailed Settings"))
         {
             this.Plugin.DrawConfigUI();
         }
 
         ImGui.Spacing();
 
-        ImGui.Text("Have a goat:");
+        ImGui.Text("Have a gum:");
         ImGui.Indent(55);
         ImGui.Image(this.GoatImage.ImGuiHandle, new Vector2(this.GoatImage.Width, this.GoatImage.Height));
         ImGui.Unindent(55);
