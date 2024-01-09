@@ -16,5 +16,14 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "A short one-liner that shows up in /xlplugins.",
-  "AcceptsFeedback": true
+  "AcceptsFeedback": true,
+  "DownloadLinkInstall": "https://github.com/atirna/SamplePlugin/tree/master/SamplePlugin/bin/x64/Release/SamplePlugin/latest.zip",
+  "IsHide": false,
+  "IsTestingExclusive": false,
+  "DownloadLinkTesting": "https://github.com/atirna/SamplePlugin/tree/master/SamplePlugin/bin/x64/Release/SamplePlugin/latest.zip",
+  "DownloadLinkUpdate": "https://github.com/atirna/SamplePlugin/tree/master/SamplePlugin/bin/x64/Release/SamplePlugin/latest.zip",
+  "DownloadCount": 0
+
+
+    
 }
